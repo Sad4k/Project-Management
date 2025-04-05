@@ -1,12 +1,15 @@
+import { ProjectCreatedAt } from "./ProjectCreatedAt";
+import { ProjectEmail } from "./ProjectEmail";
 import { ProjectId } from "./ProjectId";
+import { ProjectName } from "./ProjectName";
 
-export class User{
+export class Project{
     id: ProjectId;
-    name: UserName;
-    email: UserEmail;
-    createdAt: UserCreatedAt;
+    name: ProjectName;
+    email: ProjectEmail;
+    createdAt: ProjectCreatedAt;
 
-    constructor(id: UserId, name: UserName, email: UserEmail, createdAt: UserCreatedAt){
+    constructor(id: ProjectId, name: ProjectName, email: ProjectEmail, createdAt: ProjectCreatedAt){
         this.id = id;
         this.name = name;
         this.email = email;

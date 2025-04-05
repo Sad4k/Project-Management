@@ -1,4 +1,4 @@
-export class UserEmail {
+export class ProjectEmail {
     value: string;
   
     constructor(value: string) {

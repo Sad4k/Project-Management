@@ -1,4 +1,4 @@
-export class UserCreatedAt{
+export class ProjectCreatedAt{
     value: Date;
   
     constructor(value: Date | string) {

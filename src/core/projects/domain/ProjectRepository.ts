@@ -1,10 +1,10 @@
-import { User } from "./User";
-import { UserId } from "./UserId";
+import { Project } from "./Project";
+import { ProjectId } from "./ProjectId";
 
-export interface UserRepository {
-    create(user: User): Promise<void>
-    getAll(): Promise<User[]>
-    getOneById(id: UserId): Promise<User | null>
-    edit(User: UserId) : Promise<void>
-    delete(id: UserId) : Promise<void>
+export interface ProjectRepository {
+    create(Project: Project): Promise<void>
+    getAll(): Promise<Project[]>
+    getOneById(id: ProjectId): Promise<Project | null>
+    edit(Project: ProjectId) : Promise<void>
+    delete(id: Project) : Promise<void>
 }

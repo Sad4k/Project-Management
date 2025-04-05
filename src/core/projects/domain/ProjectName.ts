@@ -1,4 +1,4 @@
-export class UserName{
+export class ProjectName{
     value: string;
 
     constructor(value: string){
