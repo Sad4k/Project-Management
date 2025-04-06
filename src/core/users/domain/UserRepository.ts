@@ -5,6 +5,6 @@ export interface UserRepository {
     create(user: User): Promise<void>
     getAll(): Promise<User[]>
     getOneById(id: UserId): Promise<User | null>
-    edit(User: UserId) : Promise<void>
+    edit(user: UserId) : Promise<void>
     delete(id: UserId) : Promise<void>
 }

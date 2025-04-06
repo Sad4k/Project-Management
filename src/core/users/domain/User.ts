@@ -16,6 +16,6 @@ export class User{
         this.createdAt = createdAt;
     }
     public nameAndEmail(){
-        return `${this.name} - ${this.email}`;
+        return `${this.name.value} - ${this.email.value}`;
     }
 }
